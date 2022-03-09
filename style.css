@@ -4,6 +4,13 @@
     url("fonts/Agrandir-Regular.woff") format("woff");
 }
 
+/* @font-face {
+  font-family: "Agrandir";
+  src: url("fonts/Agrandir-WideBlackItalic.woff2") format("woff2"),
+    url("fonts/Agrandir-WideBlackItalic.woff") format("woff");
+  font-style: italic;
+} */
+
 html,
 body {
   background-color: black;
@@ -25,7 +32,8 @@ p {
 }
 
 a {
-    color: inherit;
+  color: inherit;
+  text-decoration: none;
 }
 
 .header {
@@ -47,6 +55,6 @@ img {
 }
 
 .secondary {
-    color: #808080;
-    margin: 20px 0;
+  color: #808080;
+  margin: 20px 0;
 }
